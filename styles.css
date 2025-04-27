@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  margin: 0;
+}
+
+/* Header */
+
+.header {
+  height: 10vh;
+  background-color: rgb(166, 28, 28);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.nav-list {
+  margin-right: 30px;
+}
+
+.nav-list > li {
+  display: inline;
+  list-style: none;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.nav-list > li:hover {
+  background-color: gray;
+}
+
+.nav-list > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  margin-right: 20px;
+}
+
+/* About page */
+
+#about {
+  background-color: rgb(29, 28, 28);
+  height: 100vh;
+  margin-top: -54px;
+}
+
+.intro {
+  color: white;
+  text-align: center;
+  padding-top: 18%;
+  font-size: 4rem;
+}
+
+.sub-intro {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+/* Projects page */
+
+#projects {
+  background-color: rgb(2, 2, 63);
+  height: 120vh;
+  margin-top: -20px;
+}
+
+.projects-intro {
+  text-align: center;
+  width: 350px;
+  color: white;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  font-size: 3rem;
+}
+
+.projects-grid {
+  height: 45%;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 35px;
+  margin-top: 75px;
+  margin-left: 30px;
+}
+
+.project-block {
+  height: 65;
+  width: 82%;
+  margin-left: 80px;
+  border: 1px solid white;
+}
+
+.project-block > a {
+  text-decoration: none;
+}
+
+.project-block > a:hover {
+  filter: brightness(75%);
+}
+
+.thumbnail {
+  width: 100%;
+  height: 80%;
+}
+
+.title-container {
+  background-color: rgb(51, 51, 51);
+  height: 20%;
+  width: 100%;
+  margin-top: -4px;
+  padding-top: 30px;
+}
+
+.project-title {
+  color: white;
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.show-all {
+  margin-left: 45%;
+  margin-top: 180px;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border-radius: 2%;
+  padding: 20px 25px;
+  font-size: 1.5rem;
+}
+
+.show-all:hover {
+  background-color: rgb(174, 27, 27);
+  transition: 0.7s;
+}
+
+/* Contact */
+
+#contact {
+  height: 100vh;
+  background-color: rgb(2, 24, 2);
+}
