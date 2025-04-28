@@ -85,7 +85,7 @@ body {
 
 #projects {
   background-color: rgb(2, 2, 63);
-  height: 135vh;
+  height: 145vh;
   margin-top: -20px;
 }
 
@@ -112,8 +112,8 @@ body {
 }
 
 .project-block {
-  height: 65;
-  width: 82%;
+  height: 70;
+  width: 90%;
   margin-left: 80px;
   border: 1px solid white;
 }
@@ -128,12 +128,12 @@ body {
 
 .thumbnail {
   width: 100%;
-  height: 80%;
+  height: 78%;
 }
 
 .title-container {
   background-color: rgb(51, 51, 51);
-  height: 20%;
+  height: 22%;
   width: 100%;
   margin-top: -4px;
   padding-top: 30px;
@@ -146,9 +146,18 @@ body {
   font-size: 1.7rem;
 }
 
+.project-description {
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: -10px;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
 .show-all {
   margin-left: 45%;
-  margin-top: 220px;
+  margin-top: 280px;
   background-color: rgb(51, 51, 51);
   color: white;
   border-radius: 2%;
