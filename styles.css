@@ -65,6 +65,22 @@ body {
   font-style: italic;
 }
 
+.contact-links {
+  margin-left: 34%;
+  margin-top: 20px;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: white;
+  padding-right: 15px;
+  font-size: 1.6rem;
+}
+
+.btn-link:hover {
+  color: rgb(215, 12, 12);
+}
+
 /* Projects page */
 
 #projects {
